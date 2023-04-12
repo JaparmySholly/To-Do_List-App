@@ -98,7 +98,7 @@ ul li.checked::before {
 input {
   margin: 0;
   border: none;
-  border-radius: 0;
+  border-radius: 10px;
   width: 75%;
   padding: 10px;
   float: left;
@@ -109,18 +109,20 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: rgb(111, 111, 111);
+  color: white;
   float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 10px;
+  box-shadow: 10px;
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: rgb(159, 157, 157);
+  color: black;
 }
 
 
